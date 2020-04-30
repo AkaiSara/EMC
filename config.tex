@@ -1,10 +1,20 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[italian]{babel}
+\usepackage[english, italian]{babel} %l'ultima lingua è quella generale
+
+%-----package per i margini---
+\usepackage[top=2.5cm, bottom=3.2cm, left=2.5cm, right=2.5cm]{geometry}
 
 \setcounter{secnumdepth}{2} %modifica numero livelli numerabili
 \setcounter{tocdepth}{2}    %modifica numero livelli visualizzati nella tableofcontents(toc)
+
+%----package per l'appendice----
+\usepackage{appendix}
+
+%------ paragrafi ------
+\newcommand{\aCapo}{ ~ \vspace{0.25cm} \\} % per andare a capo dopo paragraph e subparagraph
+
 
 \usepackage{graphicx}
 \usepackage{hyperref}
